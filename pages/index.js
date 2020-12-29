@@ -15,6 +15,17 @@ export default function Home() {
             <h2 className="display-4 mb-3">Dinçer Canpunar</h2>
             <p className="lead">I’m a senior software developer with experience in developing front-end and back-end systems.</p>
             <a href="mailto:dincercanpunar@hotmail.com">dincercanpunar@hotmail.com</a>
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/dincerc/" target="_blank">linkedin</a>
+              </li>
+              <li>
+                <a href="https://codepen.io/dincerc/" target="_blank">codepen</a>
+              </li>
+              <li>
+                <a href="https://play.google.com/store/apps/developer?id=Din%C3%A7er+Canpunar" target="_blank">android</a>
+              </li>
+            </ul>
           </div>
         </div>
       </main>
