@@ -51,9 +51,9 @@ function Layout({ children, title }) {
         <meta property="title" content="Dinçer Canpunar | Website" key="title" />
         <meta property="description" content="I’m a senior software developer with experience in developing front-end
         and back-end systems." key="description" />
-        <meta property="og:title" content="Dinçer Canpunar | Website" key="title" />
+        <meta property="og:title" content="Dinçer Canpunar | Website" key="og:title" />
         <meta property="og:description" content="I’m a senior software developer with experience in developing front-end
-        and back-end systems." key="description" />
+        and back-end systems." key="og:description" />
       </Head>
 
       <div className="container">
