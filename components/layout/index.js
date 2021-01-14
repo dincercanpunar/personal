@@ -48,6 +48,7 @@ function Layout({ children, title }) {
       <Head>
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content="Dinçer Canpunar | Website" key="title" />
       </Head>
 
       <div className="container">
@@ -75,7 +76,7 @@ function Layout({ children, title }) {
               ))}
             </div>
           </aside>
-          
+
           <div className="content">{children}</div>
         </div>
       </div>
