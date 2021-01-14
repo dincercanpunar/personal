@@ -22,14 +22,17 @@ const routes = [
 
 const links = [
   {
+    title: "Github",
     href: "https://github.com/dincercanpunar",
     icon: () => <IconGithub />,
   },
   {
+    title: "Linkedin",
     href: "https://www.linkedin.com/in/dincerc/",
     icon: () => <IconLinkedin />,
   },
   {
+    title: "Mail",
     href: "mailto:dincercanpunar@hotmail.com",
     icon: () => <IconMail />,
   },
@@ -94,10 +97,11 @@ function Layout({ children, title }) {
               ))}
             </nav>
             <div class="social-media">
-              {links.map(({ href, icon }, index) => (
+              {links.map(({ title, href, icon }, index) => (
                 <a
                   href={href}
                   target="_blank"
+                  aria-label={title}
                   className="social-media-item"
                   rel="noopener"
                 >
