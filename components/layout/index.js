@@ -11,10 +11,12 @@ import {
 import cls from "classnames";
 const routes = [
   {
+    title: "Home",
     href: "/",
     icon: () => <IconHome />,
   },
   {
+    title: "Projects",
     href: "/projects",
     icon: () => <IconCode />,
   },
@@ -83,8 +85,12 @@ function Layout({ children, title }) {
         <div className="card">
           <aside>
             <nav>
-              {routes.map(({ href, icon }, index) => (
-                <a href={href} onClick={(e) => handleClick(e, href)}>
+              {routes.map(({ title, href, icon }, index) => (
+                <a
+                  href={href}
+                  aria-label={title}
+                  onClick={(e) => handleClick(e, href)}
+                >
                   <div
                     className={cls(
                       "nav-link",
