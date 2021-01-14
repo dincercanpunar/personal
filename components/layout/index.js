@@ -95,7 +95,12 @@ function Layout({ children, title }) {
             </nav>
             <div class="social-media">
               {links.map(({ href, icon }, index) => (
-                <a href={href} target="_blank" className="social-media-item">
+                <a
+                  href={href}
+                  target="_blank"
+                  className="social-media-item"
+                  rel="noopener"
+                >
                   {icon()}
                 </a>
               ))}
