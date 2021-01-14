@@ -49,6 +49,8 @@ function Layout({ children, title }) {
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="Dinçer Canpunar | Website" key="title" />
+        <meta property="og:description" content="I’m a senior software developer with experience in developing front-end
+        and back-end systems." key="description" />
       </Head>
 
       <div className="container">
