@@ -51,6 +51,7 @@ function Layout({ children, title }) {
   return (
     <main>
       <Head>
+        <html lang={"en-us"} />
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
